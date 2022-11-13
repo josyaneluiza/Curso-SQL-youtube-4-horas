@@ -15,9 +15,13 @@ WHERE condição
 |AND| OPERADOR LOGICO|
 |OR|OPERADOR LOGICO OU|
 
-DESAFIO !
+DESAFIO 1
 
 a equipe de produçao precisa do nome de todas as peças que pesam mais de 500 kg e nao mais de 700kg para inspeção , Peso é weight
+
+SELECT Name
+FROM production.produtc
+WHERE weight <500 and weight >700
 
 Desafio 2 
 
@@ -27,4 +31,18 @@ TENTEI :
 
 SELECT *
 FROM HumanResources.Employee
-WHERE MaritalStatus = 'S' and SalariedFlag = '1' 
+WHERE MaritalStatus = 'M' and SalariedFlag = '1' 
+
+Acertei ! 
+
+Desafio 3 
+
+
+SELECT * 
+FROM Person.Person
+WHERE FirtsName = 'peter' and LastName = 'krebs'
+
+SELECT * 
+FROM PERSON.EmailAdress
+WHERE BusinessEnityID = '26'
+
