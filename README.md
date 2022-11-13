@@ -19,11 +19,20 @@ clicar em sim , quando for baixar  o programa e baixar.
  Usado para selecionar algum dado específico .
  
  SELECT 
- * SQL Server, Postgress,Oracle, mySql
+ * SQL Server, Postgress,Oracle, mySql 
+
+ a ideias é selecionar uma coluna ou várias colunas
  
- SELEC coluna1,coluna2
+ como ?
+
+ SELEC
+ (Por conversão o comando deve ser maiúsculo) coluna1,coluna2
  FROM tabela
  
  SELECT * <----Este alterisco significa selecionar todas as colunas
+
+ SELECT *
  FROM tabela
+
+ Exercício Passado :Selecionar FirstName e LastName
  
