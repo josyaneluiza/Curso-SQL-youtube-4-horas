@@ -1,5 +1,8 @@
 # Curso-SQL-youtube-4-horas
 
+O LINK DO CURSO É : https://www.youtube.com/watch?v=G7bMwefn8RQ&t=5080s
+
+
 ## Como baixar o Servidor SQL? 
 
 link : https://www.microsoft.com/en-us/download/details.aspx?id=101064
@@ -36,3 +39,6 @@ clicar em sim , quando for baixar  o programa e baixar.
 
  Exercício Passado :Selecionar FirstName e LastName
  
+
+ OUTROS COMANDOS : 
+

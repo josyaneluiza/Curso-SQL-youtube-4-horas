@@ -40,6 +40,21 @@ Desafios :
 estão registradas no banco de dados mais que 1000 vezes 
 
 
+SELECT StateProvinceID , COUNT (stateprovinceid) AS "quantidade"
+FROM person.Adress
+GROUP BY StateProvinceID
+HAVING COUNT (stateprovinceid)>1000
+
+2- Sendo que se trata de uma multinacional os gerentes querem saber quais produtos (productID) não  estão trazendo em média no mínimo 1 milhão em total de vendas (linetotal)
+
+SELECT ProductID, AVG(LineTotal)
+FROM sales.SalesOrderDetail
+GROUP BY ProductID
+HAVING AVG(linetotal) <1000000
+
+
+
+
 
 
 
