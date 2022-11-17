@@ -14,12 +14,12 @@ clicar em sim , quando for baixar  o programa e baixar.
 ##Como restaurar banco de dados ? 
  No curso foi disponibilizado um banco de dados para ser restaurado . Ao pesquisar na aba inicio do computador SSMS, abra o programa e , do lado esquerdo da tela, clique em Database com o botão direito e depois em restore in database, pressionar aopção Device, clicar em ..., Add , e colar o caminho da sua pasta de Download.
  
- ## Comando Select 
+ ## Comando Select
  
  Usado para selecionar algum dado específico .
  
  SELECT 
- * SQL Server, Postgress,Oracle, mySql
+    * SQL Server, Postgress,Oracle, mySql
  
  SELEC coluna1,coluna2
  FROM tabela
