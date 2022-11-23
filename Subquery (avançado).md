@@ -33,7 +33,7 @@ WHERE ListPrice > (SELECT AVG(ListPrice) FROM Production.Product
  FROM HumamResources.Employee
  WHERE JobTitle = 'Desing Engineer 
  
-Usando o suqquery
+Usando o suqquery : 
 
 
 SELECT FirstName
@@ -47,5 +47,19 @@ WHERE BussinessEntityID IN (
 SELECT FirstName
 FROM Person.Person P
 INNER JOIN HumanResources.Employee E ON P.BusinessEntityID = E.BusineesEntity  
-AND E.JobTitle = 'Desing Engineer' 
+AND E.JobTitle = 'Desing Engineer'
+
+DESAFIO : 
+
+Encontre para ela todos os endereços que estão no estado de 'Alberta', pade trazer todas informações
+Usar Person.Address e Person.StateProvince 
+
+
+SELECT * (Quase acertei, aqui coloquei AddressID)
+FROM Person.Address
+WHERE StateProvinceID IN(
+SELECT StateProvinceID
+FROM  Person.StateProvince
+WHERE Name='Alberta'
+)
 
