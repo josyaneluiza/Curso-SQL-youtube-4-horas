@@ -4,9 +4,9 @@
 
 ## O que é uma chave primária ?
 
-*Uma chave primária é basicamente uma coluna ou grupo de colunas, usada para identificar unicamente uma linha em uma tabela 
+* Uma chave primária é basicamente uma coluna ou grupo de colunas, usada para identificar unicamente uma linha em uma tabela 
 
-*Você consegue criara essas chaves primárias através que restrições (ou constraints em inglês),que são regras que você define quando está criando uma coluna (DICA : é bom memorizar em inglês , constraints, pois fica mais fácil para fazer a pesquisa no banco de dados ). 
+* Você consegue criara essas chaves primárias através que restrições (ou constraints em inglês),que são regras que você define quando está criando uma coluna (DICA : é bom memorizar em inglês , constraints, pois fica mais fácil para fazer a pesquisa no banco de dados ). 
 * Assim quando você faz isso você está criando um índice único para aquela coluna ou grupo de colunas 
 
 
@@ -61,6 +61,11 @@ Regras básicas :
  |CategoryName|
  |Description|
  |Picture| 
+
+
+
+No caso acima, **CategoryID** é chave estrangeira na tabela Products . A chave estrangeira é referente a tabela Categories, que tem como chave primária   *CategoryID*. 
+
 
 
 
