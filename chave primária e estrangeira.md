@@ -46,7 +46,7 @@ Regras básicas :
  |ProductID|
  |ProductName|
  |SupllierID|
- | *CategoryID* |
+ | **CategoryID** |
  |QuantityPerUnit|
  |UnitPrice|
  |UnitInStock|
