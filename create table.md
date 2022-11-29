@@ -22,9 +22,9 @@ FOREIGN KEY - identifica únicamente uma linha em outra tabela
 CHECK - FORÇA uma condição específica em uma coluna 
 DEFAULT - força um valor **padrão** quando nenhum valor é passado 
 
-### YoutubeLite
+### Youtube Lite
  
- Exemplo de tabelas. Na tabela Canal o Canal ID é a primary Key e na tabela Video Canal ID e a forghet KEY . 
+ Exemplo de tabelas. Na tabela Canal o Canal ID é a primary Key e na tabela Video  o Canal ID e a forghet KEY . 
 
 
 |canal|
@@ -44,6 +44,33 @@ DEFAULT - força um valor **padrão** quando nenhum valor é passado
 |+Dislikes     int default 0 |
 |+duracao     int not null|
 |+Canalld   FK|
+
+
+
+Criando no SQL : 
+
+Create new table , name Youtube, 
+
+New Query 
+
+CREATE TABLE Canal (
+CanalID int PRIMARY KEY, 
+Nome VARCHAR (150) NOT NULL,
+ContagemInscritos INT DEFAULT 0, 
+DataCriaçao DATEtime not null
+);
+
+CREATE TABLE  Video (
+VideoID INT PRIMARY KEY ,
+Nome VARCHAR (150) NOT NULL,
+Vizualizacoes INT DEFAULT 0,
+LIKES INT DEFAULT 0,
+Dislikes INT default 0,
+Duraçao INT NOT NULL, 
+CanalID INT FOREIGN KEY REFERENCES Canal(CanalID)
+);
+
+Desafio : Encontrar duas coisas na sua casa que podem se tornar tabelas e criar duas tabelas que tem no mínimo 1 relacionamento com a outra
 
 
 

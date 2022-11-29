@@ -1,0 +1,1 @@
+Serve para atualizar linhas em um banco de dados 
