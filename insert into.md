@@ -50,7 +50,6 @@ Select * FROM tabelaNova
 
 as tabelas Aula e TabelaNova aparecem da seguinte maneira quando selecionado F5 : 
 
-|AULA|
 |id|nome|
 |---|---|
 |1|Aula 1|
